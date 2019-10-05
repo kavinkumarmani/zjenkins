@@ -19,6 +19,7 @@ public class zjenkins {
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Visa Services")).click();
 		driver.close();
+		//quit
 	}
 
 }
