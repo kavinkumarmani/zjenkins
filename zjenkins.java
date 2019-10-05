@@ -18,7 +18,7 @@ public class zjenkins {
 		action.moveToElement(driver.findElement(By.xpath("//a[@id='highlight-addons']"))).build().perform();
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Visa Services")).click();
-
+		driver.close();
 	}
 
 }
